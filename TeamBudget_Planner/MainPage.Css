@@ -1,0 +1,17 @@
+body{
+    background-color: cornsilk;
+}
+#d1{
+    text-align: center;
+    border: black solid 2px;
+    border-width: 1px;
+    height: 200px;
+    margin-top: 10px;
+    color: blue;
+    background-color: rgb(198, 206, 221);
+}
+#h2{
+    text-align: center;
+    color: blue;
+    text-decoration-line: underline;
+}
