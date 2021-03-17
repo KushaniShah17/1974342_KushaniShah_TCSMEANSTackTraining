@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Blogging </title>
+    <script src="SimplyBlogging.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body style="background-color: peachpuff;">
+    <div style="border: 5px solid; border-color: black; height: 1050px;">
+    <div class="container" style="margin-top: 15px; font-weight: bolder; color: crimson;
+     text-decoration: underline red; text-align: center; font-size: 40px; ">
+                Simply Blogging
+    </div>
+    <div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item" style="font-size: larger; font-weight: bolder;">
+              <a class="nav-link active" aria-current="page" href="#">Add Blog</a>
+            </li>
+            <li class="nav-item" style="font-size: larger; font-weight: bolder;">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item" style="font-size: larger; font-weight: bolder;" >
+              <a class="nav-link" href="#">AboutUs</a>
+            </li>
+            <li class="nav-item" style="font-size: larger; font-weight: bolder;">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+    </div>
+        <form class ="form-control" style="background-color: lavender;">
+            Title: <input type="text" class="form-control" style="margin-top: 10px;"  width="50px" id="title"><br/>
+            Description: <textarea  class="form-control" id="desc" style="margin-top: 10px;"></textarea><br/>
+            <input type="file"  class="form-control " id="image"/><br/>
+            <input type="button" class="btn btn-primary" value="Add Blog" onclick="addblog()"/>
+    <hr/>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
+    <div class="col">
+         <div style="border: 5px solid; border-color: black; background-color: lightblue;">
+        <b>Title:</b><Label id="titleinfo"></Label><br/>
+        <b>Description:</b> <Label id = "descinfo"></Label><br/>
+        <b>Image:</b><br/><img src =" " id= "imageinfo"  style="margin-left: 100px;" width="350px" height="250px"/>
+        </div>
+  
+    </div>
+  
+</form>
+</div>
+</html>

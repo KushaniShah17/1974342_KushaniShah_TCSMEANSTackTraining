@@ -1,0 +1,11 @@
+SimplyBloggingLayout_output.png
+AddBlog_clickevent_output.png
+First_Blog_Added_output.png
+Second_blog_added_output.png
+FinalImage_output.png
+SessionStorage_ConsoleOutput.png
+Simply_Blogging_Report.docx
+
+Image1.jpg
+Image2.webp
+Image3.jfif
