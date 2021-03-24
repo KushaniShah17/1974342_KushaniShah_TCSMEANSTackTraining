@@ -1,0 +1,32 @@
+1. LoginPage_DefaultPage.png
+2. Login_pass_failed
+3. RegisterPage_op.png
+4. RegisterUserDetails.png
+5. RegisterSuccess_redirectLogin.png
+6. LoginUserDetails.png
+7. Loginsuccess_localStorage.png
+8. AfterLogin_HomePage_Username.png
+9. UserPage.png
+10. UserPage_addinguser1.png
+11. ValidationAdded_addUser.png
+12. ListofUsersAddedPage.png
+
+AddUserHTML.png
+AddUserTS1
+AddUserTS2
+HomeHTML
+HomeTS
+LayoutHTML
+LayoutTS
+ListUserHTML
+ListUserTS
+LoginHTML
+LoginTS
+MainTS
+RegisterHTML
+RegisterTS
+ValidationService1
+ValidationService2
+
+Portfolio_Report.docx
+node_modules
