@@ -1,4 +1,22 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
+#Images
+MainLayout.png
+ResetLayout.png
+ResetLayout1.png
+StoreNewTask.png
+NewTaskAddedJSON.png
+NewTaskAddedToTable.png
+AddingNewTask1.png
+Task2AddedJSON.png
+Task2Table.png
+
+EmployeeHTML.png
+EmployeeComponent.png
+EmployeeService.png
+JSONFile.png
+AppComponetn.png
+AppModule.png
+EmpManageTool_report.docx
 
 # compiled output
 /dist
