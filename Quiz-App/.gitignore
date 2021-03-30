@@ -44,3 +44,18 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+MainLayout.png
+CorrectAnswerLayout.png
+IncorrectAnswerLayout.png
+OtherRadioButton_disabled.png
+ResultLayout.png
+
+quizService.png
+quizComponent.png
+quizModel.png
+quizHTML.png
+appComponent.png
+appModule.png
+QuizApp_report.docx
+node_modules
