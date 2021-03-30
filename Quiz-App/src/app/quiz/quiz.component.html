@@ -1,0 +1,23 @@
+<div class="container p-5" style="border: 1px solid black; background-color: lightblue;">
+    <div class="row" >
+        <h1 style="border-style: double; border-color: darkblue; font-weight: bolder; background-color: darkorange;" >Quiz Application</h1>
+        <div class="col-sm-8 offset-2">
+            <p class="text-center">{{currentQuiz +1}} of {{quizzes.length}}</p>
+            <h1>{{quizzes[currentQuiz].question}}</h1>
+
+            <ul class="list-group" *ngFor = "let quiz of quizzes[currentQuiz].answer">
+                <label>
+                <li class="list-group-item" appBackground [correctAnswer] = "quiz.correct">
+                    <input type="radio" name="option" (change) = "onAnswer(quiz.correct)" [disabled] = "answerSelected"> 
+                    {{ quiz.option}}</li>
+                </label>
+            </ul>
+        
+            <button class="btn btn-success btn-block" (click) = "showResult()">Show Result</button>
+            <div *ngIf = "result">
+                Correct Answers: {{ correctAnswers }} | Incorrect Answers: {{ incorrectAnswers }}
+            </div>
+        </div>
+    </div>
+
+</div>
