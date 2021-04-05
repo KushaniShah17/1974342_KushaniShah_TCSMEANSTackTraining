@@ -1,0 +1,15 @@
+#Output images
+UserInput_1.png
+UserInput_2.png
+UserInput_3.png
+UserInput_4.png
+Details_Inseted_JSON.png
+Debugging_data_1.png
+Inspect_watch_data_2.png
+
+#Code_snippet images
+LogRecords_code.png
+LogRecords_code_debugger.png
+
+#Report
+LogReocrds_report.docx
