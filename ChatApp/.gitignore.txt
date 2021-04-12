@@ -1,0 +1,17 @@
+#OutputImages
+MainLayout.png
+User1_ChatPage.png
+User2_ChatPage.png
+Final_ChatPage.png
+Terminal_Vscode.png
+
+#CodeSnippet
+IndexPage1.png
+IndexPage2.png
+JavascriptPage.png
+
+#Report
+ChatApp_report.docx
+
+#modules
+node_modules
