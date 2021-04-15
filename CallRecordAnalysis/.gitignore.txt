@@ -1,0 +1,14 @@
+#OutputImages
+VsCode_Terminal.png
+Query_command.png
+Query_output_savedData.png
+
+
+#CodeSnippetImages
+Code_Snippet.png
+
+#Report
+CallRecord_report.docx
+
+#dependencies
+node_modules
