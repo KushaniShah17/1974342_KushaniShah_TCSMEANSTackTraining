@@ -1,0 +1,97 @@
+<section id="profile" style="background-color: rgb(133, 219, 190);">
+  <div class="container p-5">
+    <h4 class="display-4" style="font-family: 'Times New Roman', Times, serif;">Profile Details</h4>
+    <hr />
+    <div *ngIf="!data.user" class="m-auto">
+      <h1 class="text-center display-3 mt-5">
+        <i class="fa fa-spinner fa-spin"></i>
+      </h1>
+    </div>
+    <div *ngIf="data.user" class="row mt-5">
+      <div class="col-md-3">
+        <img
+          [src]="data.user.picture"
+          alt="userimage"
+          class="rounded-circle image"
+        />
+      </div>
+      <div class="col-md-8 ml-3">
+        <p id="name" class="lead" style="font-weight: bolder; ">{{ data.user.name }}</p>
+        <a routerLink="/profile/orders" class="btn "style="color: rgb(46, 28, 129);font-weight: bolder; font-family: 'Times New Roman', Times, serif;">Edit Orders</a>
+        <br />
+        <br />
+        <a routerLink="/profile/settings" class="btn" style="color: rgb(46, 28, 129);font-weight: bolder; font-family: 'Times New Roman', Times, serif;"
+          >Edit Account Settings</a
+        >
+        <br />
+        <br />
+        <a routerLink="/profile/address" class="btn " style="color: rgb(46, 28, 129);font-weight: bolder; font-family: 'Times New Roman', Times, serif;"
+          >Edit Shipping Address</a
+        >
+        <br />
+        <br />
+        
+        <div *ngIf="data.user.isEmp">
+          <p class="lead" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;">Employee Actions</p>
+          <hr />
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <a
+                routerLink="/profile/update-order-status"
+                class="btn btn-outline-success btn-block"
+                >Update Order</a
+              >
+            </div>
+            </div>
+            </div>
+        <div *ngIf="data.user.isSeller">
+          <p class="lead" style="font-weight: bolder; font-family: 'Times New Roman', Times, serif;">Admin Actions</p>
+          <hr />
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <a
+                routerLink="/profile/postproduct"
+                class="btn btn-outline-success btn-block"
+                >Add Product</a
+              >
+            </div>
+            <div class="col-md-3">
+              <a
+                routerLink="/profile/myproducts"
+                class="btn btn-outline-info btn-block"
+                >Edit Products</a
+              >
+              
+            </div>
+            <div class="col-md-3">
+              <a
+                routerLink="/profile/employee"
+                class="btn btn-outline-info btn-block"
+                >Employee Panel</a
+              >
+              
+            </div>
+            <div class="col-md-3">
+              <a
+                routerLink="/profile/editemployee"
+                class="btn btn-outline-info btn-block"
+                >Edit Employees</a
+              >
+              
+            </div>
+            
+            <div class="col-md-3">
+              <a
+                routerLink="/profile/generateReports"
+                class="btn btn-outline-info btn-block"
+                >Generate Reports</a
+              > 
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
